@@ -1,0 +1,30 @@
+from argparse import ArgumentParser
+
+parser = ArgumentParser(description='Change.')
+
+# Note: might contain reminents of few experiments that are not part of the paper
+parser.add_argument('--version', type=str)
+parser.add_argument('--num_iter', type=int, default=200)
+parser.add_argument('--pattern', type=str, default='pattern_51')
+parser.add_argument('--folder', type=str, default='')
+parser.add_argument('--resume', action='store_true', default=False)
+parser.add_argument('--rotation', action='store_true', default=False)
+parser.add_argument('--resume_int', type=int, default=40000)
+parser.add_argument('--complex_background', action='store_true', default=False)
+parser.add_argument('--edit', action='store_true', default=False)
+parser.add_argument('--non_white', action='store_false', default=True)
+parser.add_argument('--seed', action='store_true', default=False)
+parser.add_argument('--tiled', action='store_true', default=False)
+parser.add_argument('--lr', type=float, default=0.0004)
+parser.add_argument('--expand', action='store_true', default=False)
+parser.add_argument('--layers', action='store_true', default=False)
+parser.add_argument('--soft', action='store_true', default=False)
+parser.add_argument('--custom_init', action='store_true', default=False)
+parser.add_argument('--soft_elements', action='store_true', default=False)
+parser.add_argument('--base_pattern_composite', action='store_true', default=False)
+parser.add_argument('--LBFGS', action='store_true', default=False)
+parser.add_argument('--color', action='store_true', default=False)
+parser.add_argument('--base_size', type=int, default=256)
+parser.add_argument('--sample', type=int, default=9)
+
+args = parser.parse_args()
