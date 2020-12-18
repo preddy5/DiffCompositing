@@ -1,6 +1,6 @@
 # Discovering Pattern Structure Using Differentiable Compositing
 
-[![Everything Is AWESOME](http://geometry.cs.ucl.ac.uk/projects/2020/diffcompositing/paper_docs/teaser.png)](https://www.youtube.com/embed/KM7PIyb06dc "Everything Is AWESOME")
+[![Short Video](http://geometry.cs.ucl.ac.uk/projects/2020/diffcompositing/paper_docs/teaser.png)](https://www.youtube.com/embed/KM7PIyb06dc)
 
 
 ## Illustration
