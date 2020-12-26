@@ -9,7 +9,7 @@ We present a differentiable function F to composite a set of discrete elements i
 <img src="http://geometry.cs.ucl.ac.uk/projects/2020/diffcompositing/paper_docs/compile.png">
 
 
-##Requirements
+## Requirements
 kornia
 
 
